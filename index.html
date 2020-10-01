@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpaort" content="widthadevice-width, initial-scale=1.0" />
+    <title>Zadanie- user</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <h1>Create new user:</h1>
+    <form class="addForm">
+      Name
+      <input type="text" name="name" class="name" title="Type your name" />
+      Surname
+      <input
+        type="text"
+        name="surname"
+        class="surname"
+        title="Type your surname"
+      />
+      Age
+      <input type="text" name="age" class="age" title="Type your age" /> Email
+      <input type="text" name="email" class="email" title="Type your email" />
+      <button type="submit">Add user</button>
+    </form>
+
+    <div>
+      <h2>List of users:</h2>
+      <ul class="users-list"></ul>
+    </div>
+    <hr style="color: green" />
+    <h2>Find user</h2>
+    <h3 class="userFind">User:</h3>
+    <form class="searchForm">
+      <input class="searchInput" name="search" type="text" />
+      <button type="submit" class="searchButton">Szukaj</button>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
